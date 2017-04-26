@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ankit.developer.unknowns.animatededittext.MainActivity">
+
+    <com.alimuzaffar.lib.widgets.AnimatedEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit Text with none animation"
+        android:inputType="textNoSuggestions"
+        app:animationType="none"
+        app:animateCursor="true"
+        app:animateTextClear="true"
+        />
+    <com.alimuzaffar.lib.widgets.AnimatedEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit Text with Bottom Up animation"
+        android:inputType="textNoSuggestions"
+        app:animationType="fromBottom"
+        app:animateCursor="true"
+        app:animateTextClear="true"
+        android:layout_marginTop="40dp"
+        />
+    <com.alimuzaffar.lib.widgets.AnimatedEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit Text with In from middle animation"
+        android:inputType="textNoSuggestions"
+        app:animationType="fromMiddle"
+        app:animateCursor="true"
+        app:animateTextClear="true"
+        android:layout_marginTop="80dp"
+        />
+    <com.alimuzaffar.lib.widgets.AnimatedEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit Text with In from right animation"
+        android:inputType="textNoSuggestions"
+        app:animationType="fromRight"
+        app:animateCursor="true"
+        app:animateTextClear="true"
+        android:layout_marginTop="120dp"
+        />
+    <com.alimuzaffar.lib.widgets.AnimatedEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit Text with PopIn animation"
+        android:inputType="textNoSuggestions"
+        app:animationType="popIn"
+        app:animateCursor="true"
+        app:animateTextClear="true"
+        android:layout_marginTop="160dp"
+        />
+</RelativeLayout>
